@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>KK FUNDA Home Page</title>
-<link href="images/kkfunda.jpg" rel="icon">
+<title>Manikanta Home Page</title>
+<link href="images/Manikanta.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to KK AWS</h1>
-<h1 align="center"> KK FUNDA</h1>
+<h1 align="center">Welcome to Devops with Manikanta</h1>
+<h1 align="center"> Mani_kanta</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -31,24 +31,24 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/kkfunda.jpg" alt="" width="100">
+		<img src="images/manikanta.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		KK FUNDA, 
-		Martha Halli, Banglore,
-		Bangalore,
-		+91-9676831734,+91-9676831734
-		kkeducationblr@gmail.com
+		Manikanta, 
+		Jublihills, Hyderabad,
+		Hyderabad,
+		+91-9381292271,+91-8341292271
+		mpusunuri@gmail.com
 		<br>
-		<a href="mailto:kkeducation@gmail.com">Mail to KK FUNDA</a>
+		<a href="mailto:mpusunuri@gmail.com">Mail to Manikanta</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>KK FUNDA Training, Development Center.</p>
-<p align=center><small>Copyrights 2024 by <a href="google.com/">KK FUNDA</a> </small></p>
+<p align=center>Manikanta Training, Development Center.</p>
+<p align=center><small>Copyrights 2024 by <a href="google.com/">Manikanta</a> </small></p>
 
 </body>
 </html>
