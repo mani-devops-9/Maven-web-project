@@ -11,7 +11,7 @@
 <body>
 <h1 align="center"> Welcome to AWS Devops with Manikanta</h1>
 <h1 align="center"> Mani_kanta The DevOps Trainer</h1>
-<h1 align="center"> 3+ Years of Experience in AWS DevOps And Muilti Cloud</h1>
+<h1 align="center"> 3+ Years of Experience in AWS DevOps And Multi Cloud Engineer</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
