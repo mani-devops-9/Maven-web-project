@@ -37,7 +37,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<span style="font-weight: bold;">
 		Manikanta, 
 		Jublihills, Hyderabad,
-		Hyderabad,
+		Telangana,
 		+91-9381292271,+91-8341292271
 		mpusunuri@gmail.com
 		<br>
