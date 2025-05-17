@@ -70,11 +70,7 @@ pipeline
         """
         }
      }
-
-
-
-  } //stages ending
-  
+  } //stages ending 
 post {
   success {
     notifyBuild(currentBuild.result)
