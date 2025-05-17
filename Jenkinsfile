@@ -107,5 +107,3 @@ def notifyBuild(String buildStatus = 'STARTED') {
   // Send notifications
   slackSend (color: colorCode, message: summary, channel: '#mani-rvmk')
 }
-  
-} //pipeline ending
