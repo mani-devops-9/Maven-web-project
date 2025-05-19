@@ -14,7 +14,7 @@ pipeline
 
        steps
        {
-        git branch: 'dev', credentialsId: '1ab66736-0432-4fe2-8d9c-afc37e16a1d3', url: 'https://github.com/mani-devops-9/Maven-web-project.git'
+        git branch: 'prod', credentialsId: '1ab66736-0432-4fe2-8d9c-afc37e16a1d3', url: 'https://github.com/mani-devops-9/Maven-web-project.git'
         }
      }
 
@@ -65,7 +65,7 @@ pipeline
 
         sh """
             curl -u mpusunuri:Devops82s.online \
-            --upload-file /var/lib/jenkins/workspace/projectk/target/maven-web-application.war \
+            --upload-file /var/lib/jenkins/workspace/rvmk-1.0.0/target/maven-web-application.war \
             "http://34.207.186.128:8080/manager/text/deploy?path=/maven-web-application&update=true"
         """
         }
