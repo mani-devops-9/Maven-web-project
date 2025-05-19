@@ -38,24 +38,24 @@ pipeline
          }
      }
 
-    stage('SQ REPORT')
-     {
-         steps
-         {
+    // stage('SQ REPORT')
+    // {
+    //     steps
+    //    {
 
-         sh "mvn clean sonar:sonar"
+    //    sh "mvn clean sonar:sonar"
 
-         }
-     }
-    stage('Deploy to Nexus')
-     {
-         steps
-         {
+    //     }
+    // }
+    // stage('Deploy to Nexus')
+    // {
+    //     steps
+    //    {
 
-         sh "mvn clean deploy"
+    //    sh "mvn clean deploy"
 
-         }
-     }
+    //    }
+    // }
 
         stage('Deploy App')
      {
