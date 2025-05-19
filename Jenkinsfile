@@ -65,7 +65,7 @@ pipeline
 
         sh """
             curl -u mpusunuri:Devops82s.online \
-            --upload-file /var/lib/jenkins/workspace/mbpl-mani/target/maven-web-application.war \
+            --upload-file /var/lib/jenkins/workspace/Declarative-pl1/target/maven-web-application.war \
             "http://34.207.186.128:8080/manager/text/deploy?path=/maven-web-application&update=true"
         """
         }
