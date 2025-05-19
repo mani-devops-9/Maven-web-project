@@ -86,10 +86,6 @@ def notifyBuild(String buildStatus = 'STARTED') {
   // build status of null means successful
   buildStatus =  buildStatus ?: 'SUCCESS'
 
-  def notifyBuild(String buildStatus = 'STARTED') {
-  // build status of null means successful
-  buildStatus =  buildStatus ?: 'Failed'
-
   // Default values
   def colorName = 'RED'
   def colorCode = '#FF0000'
@@ -110,5 +106,4 @@ def notifyBuild(String buildStatus = 'STARTED') {
 
   // Send notifications
   slackSend (color: colorCode, message: summary, channel: '#mani-rvmk')
-}
 }
