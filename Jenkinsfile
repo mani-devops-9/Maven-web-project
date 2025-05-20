@@ -58,19 +58,19 @@ pipeline
     // }
 
 
-        stage('Deploy App')
-     {
-        steps
-        {
-         echo "Deploying WAR file using curl..."
+    //    stage('Deploy App')
+    // {
+    //    steps
+    //  {
+    //    echo "Deploying WAR file using curl..."
 
-        sh """
-            curl -u mpusunuri:Devops82s.online \
-            --upload-file /var/lib/jenkins/workspace/Declarative-pl1/target/maven-web-application.war \
-            "http://34.207.186.128:8080/manager/text/deploy?path=/maven-web-application&update=true"
-        """
-        }
-     }
+    //    sh """
+    //        curl -u mpusunuri:Devops82s.online \
+    //        --upload-file /var/lib/jenkins/workspace/Declarative-pl1/target/maven-web-application.war \
+    //        "http://34.207.186.128:8080/manager/text/deploy?path=/maven-web-application&update=true"
+    //    """
+    //   }
+    // }
   } //stages ending 
 post {
   success {
